@@ -1,0 +1,14 @@
+
+<h1 class="text-center">RQuoteGenerator</h1>
+<p class="text-center">Your daily dose of Quotes</p>
+
+<section class="secondary">
+<blockquote class="blockquote text-center">
+  <h1 #qText>"{{random?.selectedQuote.quoteText}}"</h1>
+  <em #qAuthor>{{random?.selectedQuote.quoteAuthor}}</em>
+</blockquote>
+</section>
+<section class="text-center">
+<button class="btn new" (click)= "getNew()">New Quote</button>
+<button class="btn tweet" (click) = "tweet(qText,qAuthor)"> Tweet Quote</button>
+</section>

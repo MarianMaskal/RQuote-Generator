@@ -1,0 +1,26 @@
+.btn{
+    margin-top: 22px;
+    border: 1px solid cyan;
+    border-radius: 10px;
+    background-color: mediumturquoise;
+    color: black;
+    font-size: 30px; 
+     
+}
+
+.new{
+    
+}
+
+.tweet{
+    margin-left: 28px;
+}   
+.btn:hover{
+  background-color:whitesmoke;
+}
+
+.secondary{
+    margin-top: 35px;
+    background-color: white;
+    color: #00aff0; 
+}
