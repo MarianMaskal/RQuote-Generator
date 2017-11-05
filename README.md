@@ -1,4 +1,5 @@
 # RQuoteGenerator
+A simple Angular 4 quote generator application.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.7.
 
